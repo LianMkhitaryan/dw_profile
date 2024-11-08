@@ -1,0 +1,67 @@
+*,
+::before,
+::after {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	background-repeat: no-repeat;
+}
+
+::-webkit-scrollbar {
+	width: 6px;
+	background-color: var(--true-gray-900);
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: var(--true-gray-400);
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+html,
+body,
+#__nuxt {
+	height: 100%;
+}
+
+body {
+	font-family: Inter, system-ui;
+	font-optical-sizing: auto;
+	font-size: var(--font-size-medium);
+	color: var(--bombay-700);
+}
+
+img {
+	max-width: 100%;
+}
+
+p {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+button {
+	font: inherit;
+	color: inherit;
+	background: none;
+	border: none;
+	
+	&:not(:disabled) {
+		cursor: pointer;
+	}
+	
+	&:disabled {
+		cursor: not-allowed;
+	}
+}
+
+textarea {
+	font-family: inherit;
+}
+
+b,
+strong {
+	font-weight: var(--font-weight-bold);
+}

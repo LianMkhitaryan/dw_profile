@@ -1,0 +1,49 @@
+:root {
+	// Colors
+	--radical-red-500: #FF3264;
+	--black-100: #000;
+	--bombay-30: #F9F9FB;
+	--bombay-100: #EFEFF0;
+	--bombay-200: #E1E1E4;
+	--bombay-300: #CECFD3;
+
+	// Transitions
+	--transition-fast: 0.1s ease-out;
+	--transition: 0.2s ease-out;
+	--transition-slow: 0.3s ease-out;
+
+	// Gaps
+	--gap-smallest: 8px;
+	--gap-extra-small: 12px;
+	--gap-small: 16px;
+	--gap-medium: 24px;
+	--gap-big: 32px;
+	--gap-extra-big: 40px;
+	--gap-biggest: 80px;
+
+	// Radius
+	--radius-medium: 24px;
+	--radius-big: 40px;
+
+	// Font-sizes
+	--font-size-smallest: 14px;
+	--font-size-extra-small: 16px;
+	--font-size-small: 18px;
+	--font-size-medium: 20px;
+	--font-size-big: 24px;
+	--font-size-extra-big: 30px;
+	--font-size-biggest: 36px;
+
+	// Font-weights
+	--font-weight-medium: 400;
+	--font-weight-bold: 600;
+
+	// Line-heights
+	--line-height-smallest: 1.11;
+	--line-height-extra-small: 1.2;
+	--line-height-small: 1.33;
+	--line-height-medium: 1.4;
+	--line-height-big: 1.43;
+	--line-height-extra-big: 1.5;
+	--line-height-biggest: 1.56;
+}
