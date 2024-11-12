@@ -11,10 +11,17 @@
   },
   "dependencies": {
     "nuxt": "^3.14.0",
+    "nuxt-svgo-loader": "^0.4.1",
     "vue": "latest",
     "vue-router": "latest"
   },
   "devDependencies": {
+    "@csstools/postcss-media-minmax": "^2.0.4",
+    "@vitejs/plugin-legacy": "^5.4.3",
+    "postcss-gap-properties": "^6.0.0",
+    "postcss-inset": "^1.0.0",
+    "postcss-place": "^10.0.0",
+    "postcss-selector-not": "^8.0.1",
     "sass": "^1.80.6"
   }
 }

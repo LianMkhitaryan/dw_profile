@@ -1,11 +1,17 @@
 :root {
 	// Colors
-	--radical-red-500: #FF3264;
+	--white-100: #fff;
+	--accent-default: #FF3264;
+	--radical-red-600: #ED1151;
+	--radical-red-950: #50011D;
+	--punch-500: #F34040;
 	--black-100: #000;
-	--bombay-30: #F9F9FB;
 	--bombay-100: #EFEFF0;
 	--bombay-200: #E1E1E4;
 	--bombay-300: #CECFD3;
+	--bombay-500: #AEAEB6;
+	--bombay-700: #7D7C86;
+	--bombay-950: #323234;
 
 	// Transitions
 	--transition-fast: 0.1s ease-out;
@@ -22,28 +28,29 @@
 	--gap-biggest: 80px;
 
 	// Radius
+	--radius-small: 12px;
 	--radius-medium: 24px;
 	--radius-big: 40px;
 
 	// Font-sizes
-	--font-size-smallest: 14px;
-	--font-size-extra-small: 16px;
-	--font-size-small: 18px;
-	--font-size-medium: 20px;
-	--font-size-big: 24px;
-	--font-size-extra-big: 30px;
-	--font-size-biggest: 36px;
+	--font-size-smallest: 0.75rem;
+	--font-size-extra-small: 0.813rem;
+	--font-size-small: 1.063rem;
+	--font-size-medium: 1.25rem;
+	--font-size-big: 1.375rem;
+	--font-size-extra-big: 1.75rem;
+	--font-size-biggest: 2.125rem;
 
 	// Font-weights
 	--font-weight-medium: 400;
+	--font-weight-semi-bold: 500;
 	--font-weight-bold: 600;
 
 	// Line-heights
-	--line-height-smallest: 1.11;
-	--line-height-extra-small: 1.2;
-	--line-height-small: 1.33;
-	--line-height-medium: 1.4;
-	--line-height-big: 1.43;
-	--line-height-extra-big: 1.5;
-	--line-height-biggest: 1.56;
+	--line-height-smallest: 1rem;
+	--line-height-extra-small: 1.25rem;
+	--line-height-small: 1.5rem;
+	--line-height-medium: 1.75rem;
+	--line-height-big: 2.25rem;
+	--line-height-extra-big: 2.5rem;
 }
